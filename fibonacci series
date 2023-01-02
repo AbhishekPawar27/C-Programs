@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+ void main()
+ {
+     int i,a=0,b=1,c;
+     
+     for(i=0;i<=8;i++)
+     {
+         c=a+b;
+         printf("%d\n",c);
+         a=b;
+         b=c;
+     }
+     getch();
+ }
